@@ -1,2 +1,0 @@
-# investai
-projeto
