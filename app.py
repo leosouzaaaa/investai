@@ -1,10 +1,47 @@
-from flask import Flask
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InvestAI</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 15px 25px;
+      font-size: 18px;
+      border-radius: 8px;
+      text-decoration: none;
+      color: white;
+    }
+    .whatsapp {
+      background-color: #25D366;
+    }
+    .email {
+      background-color: #3498db;
+    }
+  </style>
+</head>
+<body>
+  <h1>🚀 InvestAI está no ar!</h1>
+  <p>Entre em contato com a gente:</p>
 
-app = Flask(__name__)
+  <!-- Botão WhatsApp -->
+  <a href="https://wa.me/+5561998611133" target="_blank" class="btn whatsapp">
+    📱 WhatsApp
+  </a>
 
-@app.route("/")
-def home():
-    return "🚀 InvestAI está no ar!"
-
-if __name__ == "__main__":
-    app.run(debug=True)
+  <!-- Botão E-mail -->
+  <a href="leonardolopesesouza@gmail.com" class="btn email">
+    📧 E-mail
+  </a>
+</body>
+</html>
